@@ -89,7 +89,7 @@ function App() {
               boxShadow: "0 0 20px rgba(192, 192, 192, 0.5)",
             }}
             whileTap={{ scale: 0.95 }}
-            className="bg-gradient-to-r from-silver to-gray-400 text-black font-bold py-3 px-8 rounded-full transition-all duration-300 mb-8 open-modal"
+            className="open-modal bg-gradient-to-r from-silver to-gray-400 text-black font-bold py-3 px-8 rounded-full transition-all duration-300 mb-8"
           >
             Connect Wallet
           </motion.button>
@@ -219,7 +219,7 @@ function App() {
                   boxShadow: "0 0 20px rgba(192, 192, 192, 0.5)",
                 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-gradient-to-r from-silver to-gray-400 text-black font-bold py-3 px-8 rounded-full transition-all duration-300 open-modal"
+                className="open-modal bg-gradient-to-r from-silver to-gray-400 text-black font-bold py-3 px-8 rounded-full transition-all duration-300"
               >
                 Connect Wallet
               </motion.button>
